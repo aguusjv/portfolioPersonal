@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agus Valenzuela | Desarrollo Web</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand mr-0" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formacion">Formación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <fieldset></fieldset>
+
+      <!-- Home -->
+      <section class="home" id="home">
+        <picture class="container_image-home">
+          <img
+            src="./assets/logo-portfolio.png"
+            alt="logo portfolio"
+            class="logo__header animated-logo"
+          />
+        </picture>
+
+        <div class="home_info">
+          <div class="container_text-info">
+            <p class="home_texto-1">Hola! Soy</p>
+            <p class="home_texto-2">Agustín Valenzuela</p>
+          </div>
+          <div>
+            <p class="home_texto-3">Desarrollador Web</p>
+            <p class="home_texto-4">
+              <span
+                >Apasionado desarrollador web frontend en búsqueda de mi primer
+                empleo en el campo del desarrollo.
+                <br />
+                Me encanta crear experiencias web interactivas y visualmente
+                atractivas.</span
+              >
+            </p>
+          </div>
+          <div class="container_button">
+            <a
+              href="https://drive.google.com/file/d/1l-CUwViISllk-I13pu2zhfAW9QWI_MSQ/view"
+              target="_blank"
+            >
+              <button
+                class="cv_button"
+                data-section="home"
+                data-value="cv_button"
+              >
+                Descargar CV
+              </button>
+            </a>
+            <a href="#contacto">
+              <button
+                class="contact_button"
+                data-section="home"
+                data-value="contact_button"
+              >
+                Contacto
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="links">
+          <a href="https://www.linkedin.com/in/joanagustinv/" target="_blank">
+            <img
+              src="./assets/LinkedIn_Rounded_icon-icons.com_61573.png"
+              alt="icon_linkedin"
+            />
+          </a>
+          <a href="https://github.com/aguusjv" target="_blank">
+            <img src="./assets/github_logo_icon_143772.png" alt="icon_github" />
+          </a>
+          <a href="mailto:agustinvalenzuela1990@gmail.com" target="_blank">
+            <img
+              src="./assets/gmail_icon-icons.com_65438.png"
+              alt="icon_gmail"
+            />
+          </a>
+        </div>
+      </section>
+      <fieldset></fieldset>
+      <!-- Sobre Mi
+      <section class="sobreMi container mt-4" id="sobre-mi">
+        <h1 data-section="habilidades" data-value="title" data-aos="fade-up">
+            Sobre mí
+        </h1>
+        <div class="container">
+          <div class="row align-items">
+            <div class="col-md-6">
+              
+              <div class="container_texto-sobreMi">
+                <span class="title_sobreMi">Agustín Valenzuela</span>
+                <span class="texto_sobreMi">
+                  </span
+                >
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <fieldset></fieldset> -->
+
+      <!-- Habilidades -->
+      <section class="habilidades container mt-4" id="habilidades">
+        <h1 data-section="habilidades" data-value="title" data-aos="fade-up">
+          Habilidades
+        </h1>
+        <div class="container-fluid cards_container--habilidades">
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 mb-4"
+              data-aos="fade-up"
+              data-aos-duration="500"
+            >
+              <div class="cards--habilidades">
+                <img src="./assets/javascript_icon_130900.png" alt="JS" />
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 mb-4"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
+              <div class="cards--habilidades">
+                <img src="./assets/python_18894.png" alt="Python" />
+                <p>Python</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 mb-4"
+              data-aos="fade-up"
+              data-aos-duration="900"
+            >
+              <div class="cards--habilidades">
+                <img src="./assets/file_type_html_icon_130541.png" alt="html" />
+                <p>HTML</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 mb-4"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            >
+              <div class="cards--habilidades">
+                <img src="./assets/file_type_css_icon_130661.png" alt="Css" />
+                <p>CSS</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 mb-4"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
+              <div class="cards--habilidades">
+                <img
+                  src="./assets/file_type_angular_icon_130754.png"
+                  alt="Angular"
+                />
+                <p>Angular</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 mb-4"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            >
+              <div class="cards--habilidades">
+                <img
+                  src="./assets/mysql_original_wordmark_logo_icon_146417.png"
+                  alt="MySQL"
+                />
+                <p>MySQL</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 mb-4"
+              data-aos="fade-up"
+              data-aos-duration="900"
+            >
+              <div class="cards--habilidades">
+                <img
+                  style="filter: invert(100%)"
+                  src="./assets/github-logo_icon-icons.com_73546.png"
+                  alt="GitHub"
+                />
+                <p>GitHub</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <fieldset></fieldset>
+
+      <!-- Formacion -->
+      <section class="formacion container mt-4" id="formacion">
+        <h1 data-section="formacion" data-value="title" data-aos="fade-up">
+          Formación
+        </h1>
+
+        <div class="cards_container--formacion">
+          <div
+            class="cards--formacion"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <img
+              src="./assets/codo_a_codo.png"
+              alt="logo_codo"
+              class="logo-codo"
+            />
+            <div class="container_texto--formacion">
+              <p data-section="formacion" data-value="formacion2">
+                Full Stack Python
+              </p>
+              <p data-section="formacion" data-value="tiempo-formacion2">
+                2022
+              </p>
+            </div>
+          </div>
+          <div
+            class="cards--formacion"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img src="./assets/ifts.jpeg" alt="logo-ifts"/>
+            <div class="container_texto--formacion">
+              <p data-section="formacion" data-value="formacion1">
+                Tecnicatura Analista de Sistemas
+              </p>
+              <p data-section="formacion" data-value="tiempo-formacion1">
+                2020 - 2023
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="cards--formacion"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img src="./assets/udemy.png" alt="logo-udemy" class="logo-udemy" />
+            <div class="container_texto--formacion">
+              <p data-section="formacion" data-value="formacion3">
+                Curso Desarrollo Web
+              </p>
+              <p>2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <fieldset></fieldset>
+
+      <!-- Proyectos -->
+      <section class="proyectos container mt-4" id="proyectos">
+        <h1 data-section="formacion" data-value="title" data-aos="fade-up">
+          Proyectos
+        </h1>
+        <div class="cards_container--proyecto">
+
+          <div
+            class="cards--proyecto"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <img
+              src="./assets/Imagen de WhatsApp 2024-06-12 a las 16.55.16_674936b4.jpg"
+              class="card-img-top"
+              alt="Proyecto 1"
+            />
+            <div class="card_texto--proyecto">
+              <h5 class="card-title">Portfolio personal</h5>
+              <p class="card-text">
+                Portfolio hecho con: HTML - CSS - JS - BOOTSTRAP.
+              </p>
+              <a
+                href="https://github.com/aguusjv/blog-de-viajes"
+                class="btn btn-primary"
+                target="_blank"
+                >Ver proyecto</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="cards--proyecto"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <img
+            src="./assets/Imagen de WhatsApp 2024-06-12 a las 16.55.16_674936b4.jpg"
+            class="card-img-top"
+            alt="Proyecto 1"
+            />
+            <div class="card_texto--proyecto">
+              <h5 class="card-title">Otro proyecto</h5>
+              <p class="card-text">
+                Portfolio hecho con: HTML - CSS - JS - BOOTSTRAP.
+              </p>
+              <p data-section="formacion" data-value="tiempo-formacion2">
+                2022
+              </p>
+              <a
+                href="https://github.com/aguusjv/blog-de-viajes"
+                class="btn btn-primary"
+                target="_blank"
+                >Ver proyecto</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="cards_container--proyecto">
+          
+        </div>
+        <!-- <div class="col">
+          <div class="col-md-4">
+            <div class="card project-card">
+              <img
+                src="./assets/Imagen de WhatsApp 2024-06-12 a las 16.55.16_674936b4.jpg"
+                class="card-img-top"
+                alt="Proyecto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Portfolio personal</h5>
+                <p class="card-text">Portfolio hecho con: HTML - CSS - JS - BOOTSTRAP.</p>
+                <a
+                  href="https://github.com/aguusjv/blog-de-viajes"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Ver proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="col">
+          <div class="col-md-4">
+            <div class="card project-card">
+              <img
+                src="./assets/Imagen de WhatsApp 2024-06-12 a las 16.55.16_674936b4.jpg"
+                class="card-img-top"
+                alt="Proyecto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Portfolio personal</h5>
+                <p class="card-text">Portfolio hecho con: HTML - CSS - JS - BOOTSTRAP.</p>
+                <a
+                  href="https://github.com/aguusjv/blog-de-viajes"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Ver proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </section>
+
+      <fieldset></fieldset>
+
+      <!-- Contacto -->
+      <section class="contacto container mt-4" id="contacto">
+        <h1>Contacto</h1>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div
+          id="success-message"
+          class="alert alert-success mt-3"
+          style="display: none"
+        >
+          ¡Tu mensaje ha sido enviado con éxito!
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="container_redes--footer d-flex align-items-center justify-content-center justify-content-md-start mb-3 mb-md-0"
+            >
+              <a
+                href="https://www.linkedin.com/in/joanagustinv/"
+                class="mr-3"
+                target="_blank"
+              >
+                <img
+                  src="./assets/LinkedIn_Rounded_icon-icons.com_61573.png"
+                  alt="icon_linkedin"
+                  class="footer-icon"
+                />
+              </a>
+              <a href="https://github.com/aguusjv" class="mr-3" target="_blank">
+                <img
+                  src="./assets/github_logo_icon_143772.png"
+                  alt="icon_github"
+                  class="footer-icon"
+                />
+              </a>
+              <a href="mailto:agustinvalenzuela1990@gmail.com" target="_blank">
+                <img
+                  src="./assets/gmail_icon-icons.com_65438.png"
+                  alt="icon_instagram"
+                  class="footer-icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="container_text--footer text-center text-md-right">
+              <span class="d-block">&copy; 2024 Agus Valenzuela</span>
+              <span class="d-block">Coded by Agus Valenzuela</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-float">
+        <input type="checkbox" id="btn-mas" />
+        <div class="btn-home">
+          <a href="" class="icon-home"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              fill="currentColor"
+              class="bi bi-house-door-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"
+              /></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="home-icon"><i class="fa fa-home"></i></a>
+
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Evita la presentación del formulario predeterminado
+          const form = event.target;
+
+          // Recoge los datos del formulario
+          const formData = new FormData(form);
+
+          // Envía los datos del formulario al script PHP utilizando Fetch API
+          fetch("process_contact.php", {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.status === "success") {
+                // Si se envía correctamente, muestra el mensaje de éxito y reinicia el formulario
+                document.getElementById("success-message").style.display =
+                  "block";
+                form.reset();
+              } else {
+                // Si hay un error, muestra el mensaje de error
+                alert(data.message);
+              }
+            })
+            .catch((error) => {
+              // Si hay un problema con la solicitud Fetch, muestra un mensaje de error genérico
+              console.error("Error al enviar el formulario:", error);
+              alert(
+                "Hubo un problema al enviar tu mensaje. Por favor, intenta de nuevo más tarde."
+              );
+            });
+        });
+    </script>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
