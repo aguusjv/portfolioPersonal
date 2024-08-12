@@ -18,7 +18,7 @@ body {
 }
 .navbar-nav .nav-item {
     width: calc(100% / 5);
-    text-align: center;
+    text-align: right;
 }
 .navbar-brand {
     margin-left: 20px; /* Ajusta este valor según sea necesario */
@@ -247,6 +247,10 @@ fieldset{
     width: 100%;
     color:white
   }
+ 
+.section {
+  scroll-margin-top: 100px; /* Ajusta este valor según la altura de tu navbar */
+}
 
 /* Proyectos */
 
@@ -307,12 +311,11 @@ fieldset{
 
 .contacto{
     background-color: var(--black);
-    width: 100%;
+    width: 35%;
     height: auto;
 }
 
 .contacto h1{
-    display: block;
     text-align: center;
     color:var(--white);
     font-family: 'Cooper Hewitt';
@@ -320,6 +323,8 @@ fieldset{
     letter-spacing: 1rem;
     margin-top: 2rem;
 }
+
+
 
 .container_text--contacto{
     text-align: center;

@@ -1,9 +1,9 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Recibe los datos del formulario
-    $nombre = trim($_POST["nombre"]);
+    $nombre = trim($_POST["name"]);
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    $mensaje = trim($_POST["mensaje"]);
+    $mensaje = trim($_POST["message"]);
 
     // Validación básica (puedes personalizar según tus necesidades)
     if (empty($nombre) || empty($email) || empty($mensaje)) {
@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Configura la dirección de correo a donde quieres recibir los mensajes
-    $recipient = "tudirecciondecorreo@example.com";
+    $recipient = "agustinvalenzuela1990@gmail.com";
 
     // Configura el asunto del correo
     $subject = "Nuevo mensaje de contacto de $nombre";

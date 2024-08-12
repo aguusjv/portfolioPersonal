@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0, user-scalable=no" />
   <title>Agus Valenzuela | Desarrollo Web</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
@@ -87,7 +87,7 @@
     </section>
     <fieldset></fieldset>
 
-    <section class="habilidades container mt-4" id="habilidades">
+    <section class="habilidades container mt-4 section" id="habilidades">
       <h1 data-section="habilidades" data-value="title" data-aos="fade-up">
         Habilidades
       </h1>
@@ -141,7 +141,7 @@
     <fieldset></fieldset>
 
     <!-- Formacion -->
-    <section class="formacion container mt-4" id="formacion">
+    <section class="formacion container mt-4 section" id="formacion">
       <h1 data-section="formacion" data-value="title" data-aos="fade-up">
         Formación
       </h1>
@@ -184,7 +184,7 @@
     <fieldset></fieldset>
 
     <!-- Proyectos -->
-    <section class="proyectos container mt-4" id="proyectos">
+    <section class="proyectos container mt-4 section" id="proyectos">
       <h1 data-section="formacion" data-value="title" data-aos="fade-up">
         Proyectos
       </h1>
@@ -198,7 +198,8 @@
             <p class="card-text">
               Portfolio hecho con: HTML - CSS - JS - BOOTSTRAP.
             </p>
-            <a href="https://github.com/aguusjv/portfoliopersonal.git" class="btn btn-primary" target="_blank">Ver proyecto</a>
+            <a href="https://github.com/aguusjv/portfoliopersonal.git" class="btn btn-primary" target="_blank">Ver
+              proyecto</a>
           </div>
         </div>
 
@@ -213,20 +214,20 @@
     <fieldset></fieldset>
 
     <!-- Contacto -->
-    <section class="contacto container mt-4" id="contacto">
-      <h1>Contacto</h1>
+    <section class="contacto container mt-4 section" id="contacto">
+      <h1 data-section="formacion" data-value="title" data-aos="fade-up">Contacto</h1>
       <form id="contact-form">
         <div class="form-group">
           <label for="name">Nombre</label>
-          <input type="text" class="form-control" id="name" required />
+          <input type="text" class="form-control" id="name" name="name" required />
         </div>
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" required />
+          <input type="email" class="form-control" id="email" name="email" required />
         </div>
         <div class="form-group">
           <label for="message">Mensaje</label>
-          <textarea class="form-control" id="message" rows="4" required></textarea>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
@@ -272,7 +273,6 @@
     </div>
   </footer>
 
-  <a href="#home" class="home-icon"><i class="fa fa-home"></i></a>
 
   <script>
     document
